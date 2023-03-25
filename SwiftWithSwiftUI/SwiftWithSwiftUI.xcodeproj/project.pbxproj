@@ -24,6 +24,16 @@
 		1366341929CC44E0002B870D /* MyMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366341829CC44E0002B870D /* MyMethod.swift */; };
 		1366341C29CC4680002B870D /* MyEnumAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366341B29CC4680002B870D /* MyEnumAfter.swift */; };
 		1366341E29CD8AE8002B870D /* CheckPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366341D29CD8AE8002B870D /* CheckPoint.swift */; };
+		1366342029CD9449002B870D /* MyClosure2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366341F29CD9449002B870D /* MyClosure2.swift */; };
+		1366342229CD9797002B870D /* MyClosure3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366342129CD9797002B870D /* MyClosure3.swift */; };
+		1366342429CF17DD002B870D /* MyClosure4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366342329CF17DC002B870D /* MyClosure4.swift */; };
+		1366342729CF1CF5002B870D /* MyHof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366342629CF1CF5002B870D /* MyHof.swift */; };
+		1366342929CF2366002B870D /* MyHofLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366342829CF2366002B870D /* MyHofLoop.swift */; };
+		1366342C29CF2DC0002B870D /* MyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366342B29CF2DC0002B870D /* MyExtension.swift */; };
+		1366342F29CF329B002B870D /* MyDataModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366342E29CF329B002B870D /* MyDataModeling.swift */; };
+		1366343129CF3778002B870D /* MyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366343029CF3778002B870D /* MyProtocol.swift */; };
+		1366343429CF3AFE002B870D /* MyConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366343329CF3AFE002B870D /* MyConcurrency.swift */; };
+		1366343629CF3D7A002B870D /* CheckPoint3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366343529CF3D7A002B870D /* CheckPoint3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +74,16 @@
 		1366341829CC44E0002B870D /* MyMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMethod.swift; sourceTree = "<group>"; };
 		1366341B29CC4680002B870D /* MyEnumAfter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEnumAfter.swift; sourceTree = "<group>"; };
 		1366341D29CD8AE8002B870D /* CheckPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPoint.swift; sourceTree = "<group>"; };
+		1366341F29CD9449002B870D /* MyClosure2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosure2.swift; sourceTree = "<group>"; };
+		1366342129CD9797002B870D /* MyClosure3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosure3.swift; sourceTree = "<group>"; };
+		1366342329CF17DC002B870D /* MyClosure4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosure4.swift; sourceTree = "<group>"; };
+		1366342629CF1CF5002B870D /* MyHof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHof.swift; sourceTree = "<group>"; };
+		1366342829CF2366002B870D /* MyHofLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHofLoop.swift; sourceTree = "<group>"; };
+		1366342B29CF2DC0002B870D /* MyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtension.swift; sourceTree = "<group>"; };
+		1366342E29CF329B002B870D /* MyDataModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataModeling.swift; sourceTree = "<group>"; };
+		1366343029CF3778002B870D /* MyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProtocol.swift; sourceTree = "<group>"; };
+		1366343329CF3AFE002B870D /* MyConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConcurrency.swift; sourceTree = "<group>"; };
+		1366343529CF3D7A002B870D /* CheckPoint3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPoint3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +134,9 @@
 		136633D929C9D577002B870D /* SwiftWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1366342D29CF327E002B870D /* Protocol */,
+				1366342A29CF2DAE002B870D /* Utilities */,
+				1366342529CF1CE6002B870D /* loop */,
 				1366341A29CC4668002B870D /* Enumm */,
 				1366341329CC2BCD002B870D /* Variable */,
 				1366340A29CAF027002B870D /* Object */,
@@ -166,6 +189,10 @@
 			isa = PBXGroup;
 			children = (
 				1366340829C9E2BB002B870D /* MyClosure.swift */,
+				1366341F29CD9449002B870D /* MyClosure2.swift */,
+				1366342129CD9797002B870D /* MyClosure3.swift */,
+				1366342329CF17DC002B870D /* MyClosure4.swift */,
+				1366343329CF3AFE002B870D /* MyConcurrency.swift */,
 			);
 			path = Closure;
 			sourceTree = "<group>";
@@ -195,6 +222,33 @@
 				1366341D29CD8AE8002B870D /* CheckPoint.swift */,
 			);
 			path = Enumm;
+			sourceTree = "<group>";
+		};
+		1366342529CF1CE6002B870D /* loop */ = {
+			isa = PBXGroup;
+			children = (
+				1366342629CF1CF5002B870D /* MyHof.swift */,
+				1366342829CF2366002B870D /* MyHofLoop.swift */,
+			);
+			path = loop;
+			sourceTree = "<group>";
+		};
+		1366342A29CF2DAE002B870D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1366342B29CF2DC0002B870D /* MyExtension.swift */,
+				1366343529CF3D7A002B870D /* CheckPoint3.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1366342D29CF327E002B870D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1366342E29CF329B002B870D /* MyDataModeling.swift */,
+				1366343029CF3778002B870D /* MyProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,13 +386,23 @@
 				136633DD29C9D577002B870D /* ContentView.swift in Sources */,
 				1366340929C9E2BB002B870D /* MyClosure.swift in Sources */,
 				1366340629C9D5E8002B870D /* MyOptional.swift in Sources */,
+				1366342C29CF2DC0002B870D /* MyExtension.swift in Sources */,
 				1366341929CC44E0002B870D /* MyMethod.swift in Sources */,
+				1366342F29CF329B002B870D /* MyDataModeling.swift in Sources */,
+				1366342429CF17DD002B870D /* MyClosure4.swift in Sources */,
+				1366343629CF3D7A002B870D /* CheckPoint3.swift in Sources */,
 				1366341529CC2BE2002B870D /* MyProperty.swift in Sources */,
 				1366340E29CB3E8D002B870D /* MyOptionalBinding.swift in Sources */,
+				1366342729CF1CF5002B870D /* MyHof.swift in Sources */,
+				1366342029CD9449002B870D /* MyClosure2.swift in Sources */,
+				1366342929CF2366002B870D /* MyHofLoop.swift in Sources */,
+				1366342229CD9797002B870D /* MyClosure3.swift in Sources */,
 				136633DB29C9D577002B870D /* SwiftWithSwiftUIApp.swift in Sources */,
 				1366340C29CAF03B002B870D /* MyStruct.swift in Sources */,
+				1366343429CF3AFE002B870D /* MyConcurrency.swift in Sources */,
 				1366341029CB414C002B870D /* MyClass.swift in Sources */,
 				1366341E29CD8AE8002B870D /* CheckPoint.swift in Sources */,
+				1366343129CF3778002B870D /* MyProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
