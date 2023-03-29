@@ -21,7 +21,7 @@ struct ContentView: View {
             // Background
             Rectangle()
                 .edgesIgnoringSafeArea(.all)
-                .frame(width: 400,height: 800)
+                .frame(width: 450,height: 1000)
                 .foregroundColor(Color(red: 200/255, green: 143/255, blue: 32/255))
               
             Rectangle()
@@ -88,7 +88,7 @@ struct ContentView: View {
                         self.credits += betAmount * 10
                     }
                     else {
-                        self.credits -= self.betAmount
+                        self.credits == self.betAmount
                     }
                         
                       
