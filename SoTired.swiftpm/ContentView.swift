@@ -1,5 +1,8 @@
 import SwiftUI
 
+
+
+
 struct ContentView: View {
     @State private var animationAmount = 0.0
     @State var animate : Bool = false
@@ -15,7 +18,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             
-            
             ZStack{
                 Image("spring")
                     .resizable()
@@ -26,6 +28,7 @@ struct ContentView: View {
                     Text("산책 미팅")
                         .italic()
                         .font(.system(size: 45))
+                        .padding(.top,30)
                     //Rolling을 넣어준다
                     HStack {
                         Spacer()
@@ -139,6 +142,8 @@ struct ContentView: View {
                     }
                     .padding(.bottom,30)
                     // 버튼
+                    ZStack{
+                        
                     HStack{
                         
                         
@@ -178,11 +183,15 @@ struct ContentView: View {
                             Spacer()
                         }
                         }
+                        CherryBlossom("cherryBlossom")
+                            .background(.clear)
+                            .opacity(0.2)
+        
                         
                         Spacer()
                     }
                     .padding(.bottom,30)
-                    
+                }
                 }
             }
         }
