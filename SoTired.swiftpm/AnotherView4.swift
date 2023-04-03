@@ -3,7 +3,7 @@ import SwiftUI
 
 
 
-struct ContentView: View {
+struct AnoterView4: View {
     @State private var animationAmount = 0.0
     @State var animate : Bool = false
     
@@ -25,10 +25,15 @@ struct ContentView: View {
                     .edgesIgnoringSafeArea(.all)
                 VStack {
                     Spacer()
-                    Text("산책 미팅")
-                        .italic()
-                        .font(.system(size: 45))
-                        .padding(.top,30)
+                    if #available(iOS 16.1, *) {
+                        Text("산책 미팅")
+                            .fontDesign(.rounded)
+                            .bold()
+                            .font(.system(size: 45))
+                            .padding(.top,30)
+                    } else {
+                        // Fallback on earlier versions
+                    }
                     //Rolling을 넣어준다
                     HStack {
                         Spacer()
@@ -186,7 +191,7 @@ struct ContentView: View {
                         CherryBlossom("cherryBlossom")
                             .background(.clear)
                             .opacity(0.2)
-        
+    
                         
                         Spacer()
                     }
@@ -194,6 +199,7 @@ struct ContentView: View {
                 }
                 }
             }
+        .navigationBarHidden(false)
         }
     }
         
@@ -202,7 +208,7 @@ struct ContentView: View {
         //landscapeView
         struct ContentView_Previews: PreviewProvider {
             static var previews: some View {
-                ContentView().previewInterfaceOrientation(.landscapeRight)
+                AnoterView4().previewInterfaceOrientation(.landscapeRight)
             }
         }
     

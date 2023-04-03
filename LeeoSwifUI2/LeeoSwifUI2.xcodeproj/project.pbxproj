@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131E26CD29DAF02B00DF4A67 /* LeeoSwifUI2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26CC29DAF02B00DF4A67 /* LeeoSwifUI2App.swift */; };
+		131E26CF29DAF02B00DF4A67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26CE29DAF02B00DF4A67 /* ContentView.swift */; };
+		131E26D129DAF02C00DF4A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131E26D029DAF02C00DF4A67 /* Assets.xcassets */; };
+		131E26D429DAF02C00DF4A67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131E26D329DAF02C00DF4A67 /* Preview Assets.xcassets */; };
+		131E26DE29DAF02C00DF4A67 /* LeeoSwifUI2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26DD29DAF02C00DF4A67 /* LeeoSwifUI2Tests.swift */; };
+		131E26E829DAF02C00DF4A67 /* LeeoSwifUI2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26E729DAF02C00DF4A67 /* LeeoSwifUI2UITests.swift */; };
+		131E26EA29DAF02C00DF4A67 /* LeeoSwifUI2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26E929DAF02C00DF4A67 /* LeeoSwifUI2UITestsLaunchTests.swift */; };
+		131E26F829DAF56100DF4A67 /* MyModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26F729DAF56100DF4A67 /* MyModal.swift */; };
+		131E26FA29DAF72B00DF4A67 /* MyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26F929DAF72B00DF4A67 /* MyAlert.swift */; };
+		131E26FC29DAFBC700DF4A67 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26FB29DAFBC700DF4A67 /* MyTabView.swift */; };
+		131E26FE29DB014100DF4A67 /* MyToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26FD29DB014100DF4A67 /* MyToggle.swift */; };
+		131E270029DB041700DF4A67 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26FF29DB041700DF4A67 /* MyTextField.swift */; };
+		131E270229DB054A00DF4A67 /* MySecuredField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E270129DB054A00DF4A67 /* MySecuredField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		131E26DA29DAF02C00DF4A67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131E26C129DAF02B00DF4A67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131E26C829DAF02B00DF4A67;
+			remoteInfo = LeeoSwifUI2;
+		};
+		131E26E429DAF02C00DF4A67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131E26C129DAF02B00DF4A67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131E26C829DAF02B00DF4A67;
+			remoteInfo = LeeoSwifUI2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131E26C929DAF02B00DF4A67 /* LeeoSwifUI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeoSwifUI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		131E26CC29DAF02B00DF4A67 /* LeeoSwifUI2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeoSwifUI2App.swift; sourceTree = "<group>"; };
+		131E26CE29DAF02B00DF4A67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		131E26D029DAF02C00DF4A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		131E26D329DAF02C00DF4A67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		131E26D929DAF02C00DF4A67 /* LeeoSwifUI2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeoSwifUI2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		131E26DD29DAF02C00DF4A67 /* LeeoSwifUI2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeoSwifUI2Tests.swift; sourceTree = "<group>"; };
+		131E26E329DAF02C00DF4A67 /* LeeoSwifUI2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeoSwifUI2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		131E26E729DAF02C00DF4A67 /* LeeoSwifUI2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeoSwifUI2UITests.swift; sourceTree = "<group>"; };
+		131E26E929DAF02C00DF4A67 /* LeeoSwifUI2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeoSwifUI2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		131E26F729DAF56100DF4A67 /* MyModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModal.swift; sourceTree = "<group>"; };
+		131E26F929DAF72B00DF4A67 /* MyAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlert.swift; sourceTree = "<group>"; };
+		131E26FB29DAFBC700DF4A67 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		131E26FD29DB014100DF4A67 /* MyToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToggle.swift; sourceTree = "<group>"; };
+		131E26FF29DB041700DF4A67 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		131E270129DB054A00DF4A67 /* MySecuredField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecuredField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		131E26C629DAF02B00DF4A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E26D629DAF02C00DF4A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E26E029DAF02C00DF4A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131E26C029DAF02B00DF4A67 = {
+			isa = PBXGroup;
+			children = (
+				131E26CB29DAF02B00DF4A67 /* LeeoSwifUI2 */,
+				131E26DC29DAF02C00DF4A67 /* LeeoSwifUI2Tests */,
+				131E26E629DAF02C00DF4A67 /* LeeoSwifUI2UITests */,
+				131E26CA29DAF02B00DF4A67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		131E26CA29DAF02B00DF4A67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				131E26C929DAF02B00DF4A67 /* LeeoSwifUI2.app */,
+				131E26D929DAF02C00DF4A67 /* LeeoSwifUI2Tests.xctest */,
+				131E26E329DAF02C00DF4A67 /* LeeoSwifUI2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		131E26CB29DAF02B00DF4A67 /* LeeoSwifUI2 */ = {
+			isa = PBXGroup;
+			children = (
+				131E26F629DAF54500DF4A67 /* Views */,
+				131E26CC29DAF02B00DF4A67 /* LeeoSwifUI2App.swift */,
+				131E26D029DAF02C00DF4A67 /* Assets.xcassets */,
+				131E26D229DAF02C00DF4A67 /* Preview Content */,
+			);
+			path = LeeoSwifUI2;
+			sourceTree = "<group>";
+		};
+		131E26D229DAF02C00DF4A67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				131E26D329DAF02C00DF4A67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		131E26DC29DAF02C00DF4A67 /* LeeoSwifUI2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				131E26DD29DAF02C00DF4A67 /* LeeoSwifUI2Tests.swift */,
+			);
+			path = LeeoSwifUI2Tests;
+			sourceTree = "<group>";
+		};
+		131E26E629DAF02C00DF4A67 /* LeeoSwifUI2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				131E26E729DAF02C00DF4A67 /* LeeoSwifUI2UITests.swift */,
+				131E26E929DAF02C00DF4A67 /* LeeoSwifUI2UITestsLaunchTests.swift */,
+			);
+			path = LeeoSwifUI2UITests;
+			sourceTree = "<group>";
+		};
+		131E26F629DAF54500DF4A67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				131E26CE29DAF02B00DF4A67 /* ContentView.swift */,
+				131E26F729DAF56100DF4A67 /* MyModal.swift */,
+				131E26F929DAF72B00DF4A67 /* MyAlert.swift */,
+				131E26FB29DAFBC700DF4A67 /* MyTabView.swift */,
+				131E26FD29DB014100DF4A67 /* MyToggle.swift */,
+				131E26FF29DB041700DF4A67 /* MyTextField.swift */,
+				131E270129DB054A00DF4A67 /* MySecuredField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		131E26C829DAF02B00DF4A67 /* LeeoSwifUI2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131E26ED29DAF02C00DF4A67 /* Build configuration list for PBXNativeTarget "LeeoSwifUI2" */;
+			buildPhases = (
+				131E26C529DAF02B00DF4A67 /* Sources */,
+				131E26C629DAF02B00DF4A67 /* Frameworks */,
+				131E26C729DAF02B00DF4A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeeoSwifUI2;
+			productName = LeeoSwifUI2;
+			productReference = 131E26C929DAF02B00DF4A67 /* LeeoSwifUI2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		131E26D829DAF02C00DF4A67 /* LeeoSwifUI2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131E26F029DAF02C00DF4A67 /* Build configuration list for PBXNativeTarget "LeeoSwifUI2Tests" */;
+			buildPhases = (
+				131E26D529DAF02C00DF4A67 /* Sources */,
+				131E26D629DAF02C00DF4A67 /* Frameworks */,
+				131E26D729DAF02C00DF4A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				131E26DB29DAF02C00DF4A67 /* PBXTargetDependency */,
+			);
+			name = LeeoSwifUI2Tests;
+			productName = LeeoSwifUI2Tests;
+			productReference = 131E26D929DAF02C00DF4A67 /* LeeoSwifUI2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		131E26E229DAF02C00DF4A67 /* LeeoSwifUI2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131E26F329DAF02C00DF4A67 /* Build configuration list for PBXNativeTarget "LeeoSwifUI2UITests" */;
+			buildPhases = (
+				131E26DF29DAF02C00DF4A67 /* Sources */,
+				131E26E029DAF02C00DF4A67 /* Frameworks */,
+				131E26E129DAF02C00DF4A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				131E26E529DAF02C00DF4A67 /* PBXTargetDependency */,
+			);
+			name = LeeoSwifUI2UITests;
+			productName = LeeoSwifUI2UITests;
+			productReference = 131E26E329DAF02C00DF4A67 /* LeeoSwifUI2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		131E26C129DAF02B00DF4A67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					131E26C829DAF02B00DF4A67 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					131E26D829DAF02C00DF4A67 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 131E26C829DAF02B00DF4A67;
+					};
+					131E26E229DAF02C00DF4A67 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 131E26C829DAF02B00DF4A67;
+					};
+				};
+			};
+			buildConfigurationList = 131E26C429DAF02B00DF4A67 /* Build configuration list for PBXProject "LeeoSwifUI2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 131E26C029DAF02B00DF4A67;
+			productRefGroup = 131E26CA29DAF02B00DF4A67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				131E26C829DAF02B00DF4A67 /* LeeoSwifUI2 */,
+				131E26D829DAF02C00DF4A67 /* LeeoSwifUI2Tests */,
+				131E26E229DAF02C00DF4A67 /* LeeoSwifUI2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		131E26C729DAF02B00DF4A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131E26D429DAF02C00DF4A67 /* Preview Assets.xcassets in Resources */,
+				131E26D129DAF02C00DF4A67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E26D729DAF02C00DF4A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E26E129DAF02C00DF4A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		131E26C529DAF02B00DF4A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131E26F829DAF56100DF4A67 /* MyModal.swift in Sources */,
+				131E270029DB041700DF4A67 /* MyTextField.swift in Sources */,
+				131E26CF29DAF02B00DF4A67 /* ContentView.swift in Sources */,
+				131E26FA29DAF72B00DF4A67 /* MyAlert.swift in Sources */,
+				131E270229DB054A00DF4A67 /* MySecuredField.swift in Sources */,
+				131E26FE29DB014100DF4A67 /* MyToggle.swift in Sources */,
+				131E26CD29DAF02B00DF4A67 /* LeeoSwifUI2App.swift in Sources */,
+				131E26FC29DAFBC700DF4A67 /* MyTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E26D529DAF02C00DF4A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131E26DE29DAF02C00DF4A67 /* LeeoSwifUI2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E26DF29DAF02C00DF4A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131E26E829DAF02C00DF4A67 /* LeeoSwifUI2UITests.swift in Sources */,
+				131E26EA29DAF02C00DF4A67 /* LeeoSwifUI2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		131E26DB29DAF02C00DF4A67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 131E26C829DAF02B00DF4A67 /* LeeoSwifUI2 */;
+			targetProxy = 131E26DA29DAF02C00DF4A67 /* PBXContainerItemProxy */;
+		};
+		131E26E529DAF02C00DF4A67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 131E26C829DAF02B00DF4A67 /* LeeoSwifUI2 */;
+			targetProxy = 131E26E429DAF02C00DF4A67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131E26EB29DAF02C00DF4A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		131E26EC29DAF02C00DF4A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		131E26EE29DAF02C00DF4A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeeoSwifUI2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.LeeoSwifUI2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		131E26EF29DAF02C00DF4A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeeoSwifUI2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.LeeoSwifUI2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		131E26F129DAF02C00DF4A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.LeeoSwifUI2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeoSwifUI2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeeoSwifUI2";
+			};
+			name = Debug;
+		};
+		131E26F229DAF02C00DF4A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.LeeoSwifUI2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeoSwifUI2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeeoSwifUI2";
+			};
+			name = Release;
+		};
+		131E26F429DAF02C00DF4A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.LeeoSwifUI2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeeoSwifUI2;
+			};
+			name = Debug;
+		};
+		131E26F529DAF02C00DF4A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.LeeoSwifUI2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeeoSwifUI2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		131E26C429DAF02B00DF4A67 /* Build configuration list for PBXProject "LeeoSwifUI2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131E26EB29DAF02C00DF4A67 /* Debug */,
+				131E26EC29DAF02C00DF4A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131E26ED29DAF02C00DF4A67 /* Build configuration list for PBXNativeTarget "LeeoSwifUI2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131E26EE29DAF02C00DF4A67 /* Debug */,
+				131E26EF29DAF02C00DF4A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131E26F029DAF02C00DF4A67 /* Build configuration list for PBXNativeTarget "LeeoSwifUI2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131E26F129DAF02C00DF4A67 /* Debug */,
+				131E26F229DAF02C00DF4A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131E26F329DAF02C00DF4A67 /* Build configuration list for PBXNativeTarget "LeeoSwifUI2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131E26F429DAF02C00DF4A67 /* Debug */,
+				131E26F529DAF02C00DF4A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 131E26C129DAF02B00DF4A67 /* Project object */;
+}

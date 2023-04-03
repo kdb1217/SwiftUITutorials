@@ -53,6 +53,6 @@ struct Rolling: View {
 //landscapeView
 struct Rolling_Previews: PreviewProvider {
   static var previews: some View {
-      ContentView().previewInterfaceOrientation(.landscapeRight)
+      AnoterView4().previewInterfaceOrientation(.landscapeRight)
   }
 }
