@@ -20,6 +20,12 @@
 		131E26FE29DB014100DF4A67 /* MyToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26FD29DB014100DF4A67 /* MyToggle.swift */; };
 		131E270029DB041700DF4A67 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E26FF29DB041700DF4A67 /* MyTextField.swift */; };
 		131E270229DB054A00DF4A67 /* MySecuredField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E270129DB054A00DF4A67 /* MySecuredField.swift */; };
+		131E270429DB080700DF4A67 /* MyProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E270329DB080700DF4A67 /* MyProgress.swift */; };
+		131E270629DB0DDF00DF4A67 /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E270529DB0DDF00DF4A67 /* MyLabel.swift */; };
+		131E270829DB0F4100DF4A67 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E270729DB0F4100DF4A67 /* MyNavigationView.swift */; };
+		131E270A29DB111D00DF4A67 /* MyNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E270929DB111D00DF4A67 /* MyNavigationStack.swift */; };
+		131E270C29DB15D900DF4A67 /* MyAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E270B29DB15D900DF4A67 /* MyAppear.swift */; };
+		131E270E29DB18B800DF4A67 /* MyWrapUp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E270D29DB18B800DF4A67 /* MyWrapUp2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,12 @@
 		131E26FD29DB014100DF4A67 /* MyToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToggle.swift; sourceTree = "<group>"; };
 		131E26FF29DB041700DF4A67 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
 		131E270129DB054A00DF4A67 /* MySecuredField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecuredField.swift; sourceTree = "<group>"; };
+		131E270329DB080700DF4A67 /* MyProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgress.swift; sourceTree = "<group>"; };
+		131E270529DB0DDF00DF4A67 /* MyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
+		131E270729DB0F4100DF4A67 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		131E270929DB111D00DF4A67 /* MyNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationStack.swift; sourceTree = "<group>"; };
+		131E270B29DB15D900DF4A67 /* MyAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppear.swift; sourceTree = "<group>"; };
+		131E270D29DB18B800DF4A67 /* MyWrapUp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWrapUp2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +161,12 @@
 				131E26FD29DB014100DF4A67 /* MyToggle.swift */,
 				131E26FF29DB041700DF4A67 /* MyTextField.swift */,
 				131E270129DB054A00DF4A67 /* MySecuredField.swift */,
+				131E270329DB080700DF4A67 /* MyProgress.swift */,
+				131E270529DB0DDF00DF4A67 /* MyLabel.swift */,
+				131E270729DB0F4100DF4A67 /* MyNavigationView.swift */,
+				131E270929DB111D00DF4A67 /* MyNavigationStack.swift */,
+				131E270B29DB15D900DF4A67 /* MyAppear.swift */,
+				131E270D29DB18B800DF4A67 /* MyWrapUp2.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -285,12 +303,18 @@
 			files = (
 				131E26F829DAF56100DF4A67 /* MyModal.swift in Sources */,
 				131E270029DB041700DF4A67 /* MyTextField.swift in Sources */,
+				131E270A29DB111D00DF4A67 /* MyNavigationStack.swift in Sources */,
+				131E270E29DB18B800DF4A67 /* MyWrapUp2.swift in Sources */,
 				131E26CF29DAF02B00DF4A67 /* ContentView.swift in Sources */,
+				131E270429DB080700DF4A67 /* MyProgress.swift in Sources */,
+				131E270829DB0F4100DF4A67 /* MyNavigationView.swift in Sources */,
 				131E26FA29DAF72B00DF4A67 /* MyAlert.swift in Sources */,
 				131E270229DB054A00DF4A67 /* MySecuredField.swift in Sources */,
+				131E270629DB0DDF00DF4A67 /* MyLabel.swift in Sources */,
 				131E26FE29DB014100DF4A67 /* MyToggle.swift in Sources */,
 				131E26CD29DAF02B00DF4A67 /* LeeoSwifUI2App.swift in Sources */,
 				131E26FC29DAFBC700DF4A67 /* MyTabView.swift in Sources */,
+				131E270C29DB15D900DF4A67 /* MyAppear.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
